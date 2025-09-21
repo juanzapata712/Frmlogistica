@@ -27,16 +27,8 @@ public abstract class Envio {
         return distancia;
     }
 
-    /**
-      calcula el costo total del envio
-      @return El costo total del envio
-     */
     public abstract double calcularTarifa();
 
-    /**
-     devuelve el tipo de envío como una cadena de texto
-    @return 
-     */
     public abstract String getTipo();
 }
 
